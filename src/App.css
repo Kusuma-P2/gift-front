@@ -52,6 +52,7 @@ a:hover {
 
 .navbar{
   background-image: linear-gradient(to right, #13171a, #000);
+  background-color: #000;
   padding: 0 !important;
 }
 
@@ -413,7 +414,7 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #fc3498;
   color: #fff;
   transition: all 500ms ease;
 }
@@ -421,7 +422,7 @@ a:hover {
 .button-a {
   background-color: var(--color-pink);
   color: #fff;
-  border-color: #cde1f8;
+  border-color: #f375b4;
 }
 
 .button-big {
@@ -451,7 +452,7 @@ a:hover {
 }
 
 .bg-dark{
-  background-color: #1a1d1e !important;
+  background-color: #fff !important;
 }
 
 /*.navbar-b.navbar-reduce {
@@ -1137,7 +1138,7 @@ video{
 }
 
 .php-email-form button[type="submit"]:hover {
-  background: #3393ff;
+  background: #fc3498;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1379,7 +1380,7 @@ footer {
   text-align: center;
   color: #cf9786;
   padding: 25px 0;
-  background:black;
+  background:#000;
 }
 
 footer .copyright {
@@ -1392,4 +1393,39 @@ footer .credits {
 
 footer .credits a {
   color: #cf9786;
+}
+
+/* ------------------------------------ Cart ---------------------------------------- */
+
+.cart{
+  margin: 80px auto;
+  padding: 20px 0;
+}
+
+.cart-card{
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.cart-img {
+  height: 200px;
+}
+
+.cart-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cart-card .card-body{
+  padding: 0 16px !important;
+  height: 100%;
+}
+
+.cart-card .card-body .card-title{
+  font-size: 3.5rem;
 }

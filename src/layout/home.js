@@ -8,7 +8,7 @@ export default function Home() {
     <div
       id="home"
       className="intro route bg-image"
-      style={{ backgroundImage: "url(/img/product-jpeg-500x500.jpg)" }}
+      style={{ backgroundImage: "url(/img/background.jpg)" }}
     >
       <div className="overlay-itro"></div>
       <div className="intro-content display-table">
